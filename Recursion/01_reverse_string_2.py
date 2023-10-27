@@ -1,5 +1,5 @@
 def main():
-    text = "Postavíme Karlštejn"
+    text = input("Give me string to create a list and reverse: ")
     text_list = [x for x in text]
     print(text_list)
     reverse(text_list, 0, len(text_list)-1)
